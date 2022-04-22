@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+header{
+    width: 100%;
+    background-color: blueviolet;
+}
+
+body{
+    background-color: black;
+}
+
+#conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#conteudo p {
+    font-size: 3rem;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+}
+#clicker{
+    border: solid 2px #0c3f6e;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    margin: 0 auto;
+    background-color: aliceblue;
+    color: #0c3f6e;
+    cursor: pointer;
+}
+#conteudo button:hover{
+    color: black;
+    background-color: red;
+}
